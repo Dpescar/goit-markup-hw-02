@@ -48,7 +48,7 @@ em {
   letter-spacing: 0.02em;
   text-align: left;
 }
-.global-header a.active {
+.active {
   color: var(--link-active-color);
 }
 .button {
