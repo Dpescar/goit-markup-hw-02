@@ -70,3 +70,6 @@ a:active {
 .footer-backround {
   background: #2f303a;
 }
+.pointer {
+  cursor: pointer;
+}
