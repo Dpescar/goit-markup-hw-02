@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2? family= Raleway:wght@700 & family= Roboto:wght@400;500;700;900 & display=swap");
+
+:root {
+  --text-font-family: „Roboto”, sans-serif;
+  --title-font-family: „Raleway”, sans-serif;
+  --section-color: #ffffff;
+  --text-alternate-color: #212121;
+  --link-active-color: #2196f3;
+}
+.global-header {
+  color: #757575;
+}
+
+body {
+  font-family: var(--text-font-family);
+}
+p,
+em {
+  color: #757575;
+}
+.black {
+  font-family: var(--title-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.blue {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.hero-backround {
+  background: #2f303a;
+}
+
+.global-header a {
+  font-family: var(--text-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.global-header a.active {
+  color: var(--link-active-color);
+}
+.button {
+  background: #2196f3;
+}
+.section {
+  color: #ffffff;
+}
