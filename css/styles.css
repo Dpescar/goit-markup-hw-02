@@ -73,3 +73,6 @@ a:active {
 .pointer {
   cursor: pointer;
 }
+a:hover {
+  color: #2196f3;
+}
