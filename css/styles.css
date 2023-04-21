@@ -73,6 +73,15 @@ a:active {
 .pointer {
   cursor: pointer;
 }
-a:hover {
+.mail:hover {
+  forced-color-adjust: red;
+}
+a:hover,
+a:focus {
   color: #2196f3;
+}
+
+ul,
+ol {
+  list-style-type: none;
 }
